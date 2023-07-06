@@ -1,0 +1,155 @@
+/* اشياء عامة لكل موقع */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* التخصيص الان يكون من خلال اسماء لكلاسس*/
+.navbar{
+    padding: 20px 0;
+}
+.logo,
+.list,
+.icon,
+.button {
+    float: left;
+}
+
+.logo {
+    width: 30%;
+    
+
+}
+
+.list {
+    width: 50%;
+    
+}
+.list, .icon{
+    padding-top: 10px;
+}
+
+.icon i {
+    margin-right: 15px;
+    color:#384aeb ;
+
+}
+.list li {
+    float: left;
+    margin-right: 20px;
+}
+.list li a {
+    text-transform: capitalize;
+    color: black;
+    font-size: 15px ;
+}
+.button{
+    border: 1px solid #384aeb;
+    padding: 10px 27px;
+    border-radius: 30px;
+}
+ .button a{
+    text-transform: capitalize;
+    color: black;
+ }
+ /* لاخفاء هذه الايقونه في الشاشات الكبيرة*/
+ .fa-bars{
+    display: none;
+ }
+ /* header*/
+ .header-img{
+    float: left;
+    width: 40%;
+ }
+ /* معناها هون انا بحكيلها خدي 100 من الاب ، لانو لو شلتها بتطلع الصورة برا div*/
+ .header-img img{
+    width: 100%;
+ }
+ .header-content{
+ float: right;
+width: 60%;
+padding-top: 180px;
+padding-left: 90px;
+ }
+ .first-para{
+    font-size: 25px;
+    color: #333;
+}
+.second-para{
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 20px 0;
+}
+.header  .button{
+    background-color: #384aeb;
+}
+.header .button a{
+    color: aliceblue;
+}
+/* main product*/
+.main-product{
+    margin-top: 60px;
+}
+.item{
+    float: left;
+    width: 32%;
+    margin-right:  10px; ;
+}
+.item img{
+    width: 100%;
+}
+/* trending */
+.trending{
+    margin-top:60px; 
+}
+.description{
+    color:#333 ;
+    font: size 20px; ;
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.custom {
+    border-bottom: 2px solid #384aeb ;
+}
+.product img{
+    width: 100%;
+}
+.product{
+    padding: 0 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.category{
+    padding: 10px;
+    color: #333;
+}
+h3{
+    padding-bottom: 10px;
+}
+.price{
+    color: #384aeb;
+    font-weight: bold;
+}
